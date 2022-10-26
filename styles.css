@@ -5,7 +5,18 @@ body {
 .stand-out {
   font-size: calc(1.525rem + 3.3vw);
 }
-#header {
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  font-size: 1.05rem;
+  color: var(--gray);
+}
+
+header {
   background-color: #fa8bff;
   background-image: linear-gradient(
     45deg,
