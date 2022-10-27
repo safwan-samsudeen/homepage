@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;400;500;700&family=PT+Sans&display=swap");
+
 body {
   font-family: "Jost", sans-serif;
 }
+
 .stand-out {
   font-size: calc(1.525rem + 3.3vw);
 }
@@ -9,6 +11,7 @@ body {
 .navbar-toggler:focus {
   box-shadow: none;
 }
+
 .nav-link {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
