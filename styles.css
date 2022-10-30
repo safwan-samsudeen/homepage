@@ -41,3 +41,43 @@ body {
 main > div {
   padding-top: 100px;
 }
+
+@keyframes pulse {
+  from {
+    transform: scale(0.98);
+  }
+  to {
+    transform: scale(1.04);
+  }
+}
+
+.pulse {
+  animation: pulse 2s infinite ease-in-out alternate;
+}
+
+.bounce {
+  animation: bounce 2s ease infinite;
+}
+@keyframes bounce {
+  70% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(-15%);
+  }
+  90% {
+    transform: translateY(0%);
+  }
+  95% {
+    transform: translateY(-7%);
+  }
+  97% {
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
